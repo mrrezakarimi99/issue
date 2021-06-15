@@ -1,0 +1,24 @@
+{
+    "name": "reza/src",
+    "authors": [
+        {
+            "name": "reza karimi",
+            "email": "mr.rezakarimi99@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "reza\\serviceDesk\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "reza\\serviceDesk\\service_deskServiceProvider"
+            ]
+        }
+    }
+}
