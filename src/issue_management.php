@@ -1,5 +1,5 @@
 <?php
-namespace reza\issue_management;
+namespace rezakarimi\issue_management;
 
 /**
  * Laravel Issue Management Package by Reza Karimi.

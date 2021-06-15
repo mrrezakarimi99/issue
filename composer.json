@@ -1,5 +1,5 @@
 {
-    "name": "reza/src",
+    "name": "rezakarimi/src",
     "authors": [
         {
             "name": "reza karimi",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "reza\\serviceDesk\\" : "src/"
+            "rezakarimi\\serviceDesk\\" : "src/"
         }
     },
     "extra": {
         "laravel" : {
             "providers" : [
-                "reza\\serviceDesk\\service_deskServiceProvider"
+                "rezakarimi\\serviceDesk\\service_deskServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace reza\serviceDesk;
+namespace rezakarimi\serviceDesk;
 
 use Illuminate\Support\ServiceProvider;
 
