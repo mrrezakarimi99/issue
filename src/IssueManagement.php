@@ -16,7 +16,7 @@ trait IssueManagement
             'http_errors' => false,
             'headers' => [
                 'Content-Type' => 'application/json',
-                'Authorization' => $token,
+                'Authorization' => 'Bearer '.$token,
             ],
             'body' => json_encode($payload->payloadToArray())
         ]);
