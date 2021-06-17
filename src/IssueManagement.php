@@ -21,8 +21,13 @@ trait IssueManagement
             'body' => json_encode($payload)
         ]);
         if ($response->getStatusCode() !== 200 ){
-            return false;
+            return [
+                'status' => $response->getStatusCode(),
+                'body' => $response->getBody()->getContents()
+            ];
         }
-        return true;
+        return [
+            'status' => $response->getStatusCode(),
+        ];
     }
 }
