@@ -18,7 +18,7 @@ trait IssueManagement
                 'Content-Type' => 'application/json',
                 'Authorization' => $token,
             ],
-            'body' => json_encode($payload)
+            'body' => json_encode($payload->payloadToArray())
         ]);
         if ($response->getStatusCode() !== 200 ){
             return [
